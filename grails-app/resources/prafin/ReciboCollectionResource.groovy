@@ -11,7 +11,7 @@ import javax.ws.rs.POST
 import javax.ws.rs.core.Response
 
 @Path('/api/recibo')
-@Consumes(['application/xml','application/json'])
+@Consumes(['application/json'])
 @Produces(['application/json'])
 class ReciboCollectionResource {
 
